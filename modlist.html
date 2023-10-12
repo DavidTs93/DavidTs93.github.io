@@ -1,148 +1,157 @@
-<style>
-	a {
-		color: blue;
-	}
-	ul {
-		font-size: 18;
-		font-family: serif;
-		display: flex;
-		flex-direction: column;
-		gap: 8px;
-	}
-</style>
-<h2>Mods</h2>
-<ul>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/advancement-plaques">Advancement Plaques</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/alchemistry">Alchemistry</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/ato">ATO - All the Ores</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/appleskin">AppleSkin</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/auto-third-person">Auto Third Person</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/better-animations-collection">Better Animations Collection</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty">Biomes O' Plenty</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/block-runner-forge">Block Runner</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/carpeted-stairs">Carpeted Stairs & Slabs</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/chimes">Chimes</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/comforts">Comforts</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/construction-wand">Construction Wand</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/controlling">Controlling</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks">Crafting Tweaks</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks">Mouse Tweaks</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/create">Create</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/createaddition">Create Crafts & Additions</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails">Create: Steam 'n' Rails</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/create-enchantment-industry">Create Enchantment Industry</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge">Kotlin for Forge</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/slice-and-dice">Create Slice & Dice</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/create-stuff-additions">Create Stuff & Additions</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/create-confectionery">Create Confectionery</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/create-ore-excavation">Create Ore Excavation</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config">Cloth Config API</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/architectury-api">Architectury API</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/create-chunkloading">Create Chunkloading</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/create-misc-and-things">Create : Misc & Things</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/interiors">Create: Interiors</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/bellsandwhistles">Create: Bells & Whistles</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/create-recycle-everything">Create Recycle Everything</a></li>
-	<li><a href="https://modrinth.com/mod/create-garnished">Create: Garnished</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/curios">Curios API</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/easy-magic">Easy Magic</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/easy-anvils">Easy Anvils</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/elytra-slot">Elytra Slot</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/enchanting-infuser-forge">Enchanting Infuser</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions">Enchantment Descriptions</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/equipment-compare">Equipment Compare</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/natures-compass">Nature's Compass</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/explorers-compass">Explorer's Compass</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/falling-leaves-forge">Falling Leaves</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight">Farmer's Delight</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/nethers-delight">Nether's Delight</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/ends-delight">End's Delight</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/oceans-delight">Ocean's Delight</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/immersive-engineering">Immersive Engineering</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/engineers-delight">Engineers Delight</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/farsight">Farsight</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips">Legendary Tooltips</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/food-effect-tooltips-forge">Food Effect Tooltips</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/framedblocks">FramedBlocks</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge">FTB Chunks (map)</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/gamemenumodoption">Game Menu Mod Option</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/guard-villagers">Guard Villagers</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/heart-balance">HeartBalance: Health Pickups & player starting health</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/horse-statistics">Horse Statistics</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/immediatelyfast">ImmediatelyFast</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge">Inventory HUD+</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/jei">Just Enough Items</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/leave-my-bars-alone">Leave My Bars Alone</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/lootr">Lootr</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-bridges">Macaw's Bridges</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-doors">Macaw's Doors</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-fences-and-walls">Macaw's Fences and Walls</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-trapdoors">Macaw's Trapdoors</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-roofs">Macaw's Roofs</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-lights-and-lamps">Macaw's Lights and Lamps</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-windows">Macaw's Windows</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-furniture">Macaw's Furniture</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-paths-and-pavings">Macaw's Paths and Pavings</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged">Magnesium/Rubidium Dynamic Lights</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/polymorph">Polymorph</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks">Sophisticated Backpacks</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/storage-drawers">Storage Drawers</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/framed-compacting-drawers">Framed Compacting Drawers</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/travelers-titles">Traveler's Titles</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/universal-bone-meal-forge">Universal Bone Meal</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/wooden-tools-are-dumb">Wooden tools are dumb</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed">Just Enough Effect Descriptions</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/magnum-torch-forge">Magnum Torch</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/universal-enchants-forge">Universal Enchants</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/model-gap-fix">Model Gap Fix</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture">Mystical Agriculture</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/mystical-agradditions">Mystical Agradditions</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture-tiered-crystals">Mystical Agriculture Tiered Crystals</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/mystical-adaptations">Mystical Adaptations</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/neat">Neat</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/nyfs-spiders">Nyf's Spiders</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/overloaded-armor-bar">Overloaded Armor Bar</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/portable-crafting-table">Portable Crafting Table</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/productivebees">Productive Bees</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/regrowth">Regrowth</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/magnesium-extras">Magnesium/Rubidium Extras</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/blur-forge">Blur</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/superfancyclouds-refabricated">SuperFancyClouds: Rearchitected</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/tiny-item-animations">Tiny Item Animations</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/ambientsounds">AmbientSounds 5</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered">Sound Physics Remastered</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/snow-real-magic">Snow! Real Magic! ⛄</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/charm-of-undying">Charm of Undying</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition">Spice of Life: Carrot Edition</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries">Supplementaries</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/saro-s-fruit-trees-mod">Saro´s Fruit Trees</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/the-one-probe">The One Probe</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/toast-control">Toast Control</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/tool-belt">Tool Belt</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next">Inventory Profiles Next</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/stylish-effects">Stylish Effects</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/trading-post">Trading Post</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/bartering-station">Bartering Station</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/diagonal-fences">Diagonal Fences</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/diagonal-windows">Diagonal Windows</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/whats-that-slot">What's That Slot?</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/wither-skeleton-tweaks">Wither Skeleton Tweaks</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric">[ETF] Entity Texture Features</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/entity-model-features">[EMF] Entity Model Features</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/gravestone-mod">GraveStone Mod</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/nether-depths-upgrade">Nether Depths Upgrade</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/endremastered">End Remastered</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/merchant-markers">Merchant Markers</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/better-third-person">Better Third Person</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/findme">FindMe</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/not-enough-animations">Not Enough Animations</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized">PneumaticCraft: Repressurized</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/betterf3">BetterF3</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/torcherino">Torcherino</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/mc-mods/kleeslabs">KleeSlabs</a></li>
-</ul>
-<h2>Resource packs</h2>
-<ul>
-	<li><a href="https://www.curseforge.com/minecraft/texture-packs/fresh-animations">Fresh Animations</a></li>
-	<li><a href="https://www.curseforge.com/minecraft/texture-packs/fresh-animations-extensions">Fresh Animations Extensions</a></li>
-</ul>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Modlist</title>
+		<style>
+			a {
+				color: blue;
+			}
+			ul {
+				font-size: 18;
+				font-family: serif;
+				display: flex;
+				flex-direction: column;
+				gap: 8px;
+			}
+		</style>
+	</head>
+	<body id="body">
+		<h2>Mods</h2>
+		<ul>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/advancement-plaques">Advancement Plaques</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/alchemistry">Alchemistry</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/ato">ATO - All the Ores</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/appleskin">AppleSkin</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/auto-third-person">Auto Third Person</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/better-animations-collection">Better Animations Collection</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty">Biomes O' Plenty</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/block-runner-forge">Block Runner</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/carpeted-stairs">Carpeted Stairs & Slabs</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/chimes">Chimes</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/comforts">Comforts</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/construction-wand">Construction Wand</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/controlling">Controlling</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks">Crafting Tweaks</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks">Mouse Tweaks</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/create">Create</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/createaddition">Create Crafts & Additions</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails">Create: Steam 'n' Rails</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/create-enchantment-industry">Create Enchantment Industry</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge">Kotlin for Forge</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/slice-and-dice">Create Slice & Dice</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/create-stuff-additions">Create Stuff & Additions</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/create-confectionery">Create Confectionery</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/create-ore-excavation">Create Ore Excavation</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config">Cloth Config API</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/architectury-api">Architectury API</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/create-chunkloading">Create Chunkloading</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/create-misc-and-things">Create : Misc & Things</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/interiors">Create: Interiors</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/bellsandwhistles">Create: Bells & Whistles</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/create-recycle-everything">Create Recycle Everything</a></li>
+			<li><a href="https://modrinth.com/mod/create-garnished">Create: Garnished</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/curios">Curios API</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/easy-magic">Easy Magic</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/easy-anvils">Easy Anvils</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/elytra-slot">Elytra Slot</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/enchanting-infuser-forge">Enchanting Infuser</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions">Enchantment Descriptions</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/equipment-compare">Equipment Compare</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/natures-compass">Nature's Compass</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/explorers-compass">Explorer's Compass</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/falling-leaves-forge">Falling Leaves</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight">Farmer's Delight</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/nethers-delight">Nether's Delight</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/ends-delight">End's Delight</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/oceans-delight">Ocean's Delight</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/immersive-engineering">Immersive Engineering</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/engineers-delight">Engineers Delight</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/farsight">Farsight</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips">Legendary Tooltips</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/food-effect-tooltips-forge">Food Effect Tooltips</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/framedblocks">FramedBlocks</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge">FTB Chunks (map)</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/gamemenumodoption">Game Menu Mod Option</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/guard-villagers">Guard Villagers</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/heart-balance">HeartBalance: Health Pickups & player starting health</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/horse-statistics">Horse Statistics</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/immediatelyfast">ImmediatelyFast</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge">Inventory HUD+</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/jei">Just Enough Items</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/leave-my-bars-alone">Leave My Bars Alone</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/lootr">Lootr</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-bridges">Macaw's Bridges</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-doors">Macaw's Doors</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-fences-and-walls">Macaw's Fences and Walls</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-trapdoors">Macaw's Trapdoors</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-roofs">Macaw's Roofs</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-lights-and-lamps">Macaw's Lights and Lamps</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-windows">Macaw's Windows</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-furniture">Macaw's Furniture</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-paths-and-pavings">Macaw's Paths and Pavings</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged">Magnesium/Rubidium Dynamic Lights</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/polymorph">Polymorph</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks">Sophisticated Backpacks</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/storage-drawers">Storage Drawers</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/framed-compacting-drawers">Framed Compacting Drawers</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/travelers-titles">Traveler's Titles</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/universal-bone-meal-forge">Universal Bone Meal</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/wooden-tools-are-dumb">Wooden tools are dumb</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed">Just Enough Effect Descriptions</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/magnum-torch-forge">Magnum Torch</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/universal-enchants-forge">Universal Enchants</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/model-gap-fix">Model Gap Fix</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture">Mystical Agriculture</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/mystical-agradditions">Mystical Agradditions</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture-tiered-crystals">Mystical Agriculture Tiered Crystals</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/mystical-adaptations">Mystical Adaptations</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/neat">Neat</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/nyfs-spiders">Nyf's Spiders</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/overloaded-armor-bar">Overloaded Armor Bar</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/portable-crafting-table">Portable Crafting Table</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/productivebees">Productive Bees</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/regrowth">Regrowth</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/magnesium-extras">Magnesium/Rubidium Extras</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/blur-forge">Blur</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/superfancyclouds-refabricated">SuperFancyClouds: Rearchitected</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/tiny-item-animations">Tiny Item Animations</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/ambientsounds">AmbientSounds 5</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered">Sound Physics Remastered</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/snow-real-magic">Snow! Real Magic! ⛄</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/charm-of-undying">Charm of Undying</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition">Spice of Life: Carrot Edition</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries">Supplementaries</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/saro-s-fruit-trees-mod">Saro´s Fruit Trees</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/the-one-probe">The One Probe</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/toast-control">Toast Control</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/tool-belt">Tool Belt</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next">Inventory Profiles Next</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/stylish-effects">Stylish Effects</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/trading-post">Trading Post</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/bartering-station">Bartering Station</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/diagonal-fences">Diagonal Fences</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/diagonal-windows">Diagonal Windows</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/whats-that-slot">What's That Slot?</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/wither-skeleton-tweaks">Wither Skeleton Tweaks</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric">[ETF] Entity Texture Features</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/entity-model-features">[EMF] Entity Model Features</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/gravestone-mod">GraveStone Mod</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/nether-depths-upgrade">Nether Depths Upgrade</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/endremastered">End Remastered</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/merchant-markers">Merchant Markers</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/better-third-person">Better Third Person</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/findme">FindMe</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/not-enough-animations">Not Enough Animations</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized">PneumaticCraft: Repressurized</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/betterf3">BetterF3</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/torcherino">Torcherino</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/mc-mods/kleeslabs">KleeSlabs</a></li>
+		</ul>
+		<h2>Resource packs</h2>
+		<ul>
+			<li><a href="https://www.curseforge.com/minecraft/texture-packs/fresh-animations">Fresh Animations</a></li>
+			<li><a href="https://www.curseforge.com/minecraft/texture-packs/fresh-animations-extensions">Fresh Animations Extensions</a></li>
+		</ul>
+	</body>
+</html>
