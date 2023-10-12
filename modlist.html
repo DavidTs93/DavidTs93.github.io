@@ -4,25 +4,31 @@
 		<meta charset="utf-8">
 		<title>Modlist</title>
 		<style>
-			* {
-				font-size: 18px;
+			body {
+				max-width: 98%;
+				margin-left: 1%;
+				font-size: 1.2em;
 				font-family: serif;
 			}
 			a {
 				color: blue;
 			}
-			p {
-				font-size: 64px;
+			span.Title {
+				font-size: 3.2em;
+			}
+			span.Info {
+				font-size: 1.4em;
 			}
 			ul {
 				display: flex;
 				flex-direction: column;
 				gap: 8px;
+				margin: 10px 0 0 0;
 			}
 		</style>
 	</head>
-	<body id="body">
-		<p>Mods</p>
+	<body>
+		<span class="Title">Mods</span>
 		<ul>
 			<li><a href="https://www.curseforge.com/minecraft/mc-mods/advancement-plaques">Advancement Plaques</a></li>
 			<li><a href="https://www.curseforge.com/minecraft/mc-mods/alchemistry">Alchemistry</a></li>
@@ -146,14 +152,15 @@
 			<li><a href="https://www.curseforge.com/minecraft/mc-mods/betterf3">BetterF3</a></li>
 			<li><a href="https://www.curseforge.com/minecraft/mc-mods/torcherino">Torcherino</a></li>
 			<li><a href="https://www.curseforge.com/minecraft/mc-mods/kleeslabs">KleeSlabs</a></li>
-		</ul>
-		<p>Resource packs</p>
+		</ul><br>
+		<span class="Title">Resource packs</span>
 		<ul>
 			<li><a href="https://www.curseforge.com/minecraft/texture-packs/fresh-animations">Fresh Animations</a></li>
 			<li><a href="https://www.curseforge.com/minecraft/texture-packs/fresh-animations-extensions">Fresh Animations Extensions</a></li>
-		</ul>
-		<br><br>
-		<p>Client-side (can be removed) - "+" means they come together (the 2nd is a library)</p>
+		</ul><br>
+		<hr/>
+		<span class="Title">Client-side</span><br>
+		<span class="Info">Can be removed, "+" means they come together (the 2nd is a library)</span><br><br>
 		<ul>
 			<li>AmbientSounds 5 + CreativeCore</li>
 			<li>Auto Third Person</li>
